@@ -13,6 +13,20 @@ body{
     display: table;
     clear:both;
 }
+/* COMMON */
+.button-white{
+    background:#fff;
+    padding: 10px 20px ;
+    border: 1px solid;
+}
+.button-blue{
+    background: #0063ff;
+    color:white;
+    padding: 5px 10px;
+}
+a{
+    text-decoration: none;
+}
 /* HEADER */
 header{
     position: fixed;
@@ -47,4 +61,46 @@ header ul, header li{
 header a{
     margin:auto 20px;
 }
-
+/* MAIN */
+.container-largo{
+    padding-top: 100px;
+    max-width: 1300px;
+    margin:auto;
+}
+.container{
+    max-width: 1080px;
+    margin:auto;
+}
+    /* HERO */
+    .hero{
+        background: #b4d0e6;
+        height: 730px;
+        margin-bottom: 200px;
+    }
+    
+    .hero h1{
+        font-size: 4.5em;
+        margin-bottom:70px;
+    }
+    
+    .col-text-hero, .col-img-hero{
+        float:left;
+    }
+    
+    .col-text-hero{
+        width: 30%;
+     }
+    
+     .col-text-hero p{
+         margin-bottom:40px;
+     }
+    
+    
+    .col-img-hero{
+        width:70%;
+        text-align: center;
+    }
+    
+    .col-img-hero img{
+        height: 470px;
+    }
