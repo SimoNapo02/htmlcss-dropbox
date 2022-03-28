@@ -121,7 +121,7 @@ header a{
         width: 30%;
         border:1px solid;
         float:left;
-        padding: 15px;
+        padding: 20px;
         margin-top: 30px;
     }
     .col-header{
@@ -154,9 +154,12 @@ header a{
         list-style-type: none;
         margin: 0;
         padding: 0;
-        line-height: 35px;
+        line-height: 40px;
     }
     .col-ctr{
         margin: auto 5%;
         margin-top: 30px;
+    }
+    .col-plans h2{
+        margin-top: 10px;
     }
