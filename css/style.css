@@ -104,3 +104,37 @@ header a{
     .col-img-hero img{
         height: 470px;
     }
+    /* PIANI SINISTRA */
+    .col-plans{
+        min-height: 900px;
+        width: 30%;
+        border:1px solid;
+        float:left;
+    }
+    .col-piani-sx-top{
+        padding: 0 15px;
+        
+    }
+    
+    .col-piani-sx-top-titolo{
+        margin:15px auto 40px auto;
+    }
+    
+    .col-piani-sx-top-prezzo{
+        margin-bottom:20px;
+    }
+    
+    .col-piani-sx-top-features ul{
+        list-style-type: none;
+        margin-bottom: 40px;
+    }
+    .col-piani-sx-top-features ul li {
+        margin-top:20px;
+    }
+    
+    .col-piani-sx-top-features i{
+        margin-right: 5px;
+    }
+    
+    .col-piani-sx-top-buy{
+        margin:15px 0;
