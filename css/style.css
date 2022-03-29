@@ -242,3 +242,144 @@ header a{
         margin-bottom: 110px;
         padding-top: 50px;
     }
+    /* BUSINESS */
+    .col-bus {
+        float: left;
+        width: calc( 100% / 3 - 8px);
+        margin: 0 4px;
+    }
+    
+    .product {
+        position: relative;
+        margin-top: 30px;
+    }
+    .product img {
+        width: 100%;
+        display: block;
+    }
+    .info-bus{
+        margin-top: 20px;
+    }
+    /* DROPBOX TEAMS */
+    .dropbox-business-title h1{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .dropbox-business .container{
+        margin-bottom:40px;
+    }
+    
+    .square-left,.square-right{
+        position: relative;
+        border:1px solid;
+        height: 25vw;
+        width: 25vw;
+        
+    
+    }
+    
+    .square-left{
+        float:left;
+    }
+    
+    .square-right{
+        float:right;
+    }
+    
+    .square-1,.square-2,.square-3,.square-4{
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .square-left img,.square-right img{
+        width: 50%;
+    }
+    .square-center img{
+        width: 20%;
+       
+    }
+    
+    .square-1{
+        left:0;
+        top:0;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .square-2{
+        right:0;
+        top:0;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .square-3{
+        left:0;
+        bottom:0;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .square-4{
+        right:0;
+        bottom:0;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .square-left .square-1{
+        background: #a3d49c;
+    }
+    
+    .square-left .square-2{
+        background: #63072c;
+    
+    }
+    .square-left .square-3{
+        background: #0393cf;
+    }
+    .square-left .square-4{
+        background: #fe1c1e;
+    }
+    
+    .square-right .square-1{
+        background: #d50020;
+    }
+    
+    .square-right .square-2{
+        background: #b4d0e6;
+    
+    }
+    .square-right .square-3{
+        background: #0e2582;
+    }
+    .square-right .square-4{
+        background: #ffd930;
+    }
+    
+    
+    .square-center{
+        height: 25vw;
+        width: 50vw ;
+        display: inline-block;
+        background:#f6f6f6;
+        padding: 50px 50px 50px 50px;
+    }
+    
+    .square-center hr{
+        width: 10%;
+        margin: 30px 0 50px 0;
+    }
+    
+    .square-center p{
+        margin-bottom: 60px;
+    }
+    
+    .container-square{
+        display: flex;
+    }
+    
