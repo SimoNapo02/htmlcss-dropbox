@@ -274,7 +274,7 @@ header a{
         position: relative;
         border:1px solid;
         height: 25vw;
-        width: 25vw;
+        width: 25%;
         
     
     }
@@ -305,30 +305,22 @@ header a{
     .square-1{
         left:0;
         top:0;
-        display: flex;
-        justify-content: center;
-        align-items:center;
+        float: left;
     }
     .square-2{
         right:0;
         top:0;
-        display: flex;
-        justify-content: center;
-        align-items:center;
+        float: left;
     }
     .square-3{
         left:0;
         bottom:0;
-        display: flex;
-        justify-content: center;
-        align-items:center;
+        float: left;
     }
     .square-4{
         right:0;
         bottom:0;
-        display: flex;
-        justify-content: center;
-        align-items:center;
+        float: left;
     }
     
     .square-left .square-1{
@@ -364,7 +356,7 @@ header a{
     
     .square-center{
         height: 25vw;
-        width: 50vw ;
+        width: 50%;
         display: inline-block;
         background:#f6f6f6;
         padding: 50px 50px 50px 50px;
@@ -379,7 +371,12 @@ header a{
         margin-bottom: 60px;
     }
     
-    .container-square{
-        display: flex;
+  
+    .square-right img{
+        margin-top: 50%;
+        filter: invert();
     }
-    
+    .square-left img{
+        margin-top: 50%;
+        filter: invert();
+    }
